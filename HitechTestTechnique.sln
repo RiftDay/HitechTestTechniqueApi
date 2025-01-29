@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitechTestTechnique.Web", "HitechTestTechnique.Web\HitechTestTechnique.Web.csproj", "{8F37D875-6F7A-475D-9832-FF1F9895A604}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitechTestTechnique.Api", "HitechTestTechnique.Api\HitechTestTechnique.Api.csproj", "{8F37D875-6F7A-475D-9832-FF1F9895A604}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitechTestTechnique.Lib", "HitechTestTechnique.Lib\HitechTestTechnique.Lib.csproj", "{57F046D6-6905-4D6A-A174-935C77B9F9E4}"
 EndProject
