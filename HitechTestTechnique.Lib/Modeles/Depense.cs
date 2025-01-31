@@ -13,7 +13,7 @@ public class Depense
     public required DateOnly Date { get; set; }
     public required string Commentaire { get; set; }
     public required TypeDepense Type { get; set; }
-    
+
     public uint? DistanceKm { get; set;}
     public ushort? NombreInvites { get; set; }
 }

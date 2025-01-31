@@ -1,3 +1,4 @@
+![Logo](/img/logo.svg "Logo")
 
 Ce projet a été proposé en tant que test technique à la suite de notre entretien mené le 24/01.
 
@@ -33,9 +34,9 @@ Séparation de la validation dans un attribut dédié.
 
 # Architecture
 
-La solution a été implémentée en C# en utilisant .NET 9.
+La solution a été implémentée en C# en utilisant .NET 9 et le modèle MinimalAPI.
 
-Elle est scindée en 2 projets :
+Elle est découpée en 2 projets :
 - `HitechTestTechnique.Lib` pour les modèles
 - `HitechTestTechnique.Api` pour l’API
 
@@ -54,6 +55,7 @@ Swagger ayant été retiré de .NET depuis la version 9, plutôt que de le rajou
 
 J’ai configuré le projet pour que cette interface soit active même en production, dans le cadre de projet.
 
+![Scalar](/img/scalar.png "Scalar")
 
 # Améliorations
 
@@ -62,9 +64,19 @@ Si plus de temps m’était disponible, voici les améliorations que j’aurais 
 - Meilleure validation :
     - Messages d’erreur sur champs correspondant à des propriétés `required`
     - Gestion des remontées multiples d’erreur de validation
+- Renvoi a minima du nombre total de résultats sur l’endpoint de consultation pour améliorer la présentation de la pagination côté *Front*
 - Gestion de l’authentification et des autorisations
 - Mise en place d’un petit projet pour consommer l’API
 - Pas de `<summary>` jugé nécessaire pour les champs du modèle, compte-tenu de leur simplicité
+
+# Temps consacré (approximatif)
+
+- Remise à niveau : 3h
+- Mise en place environnement (PostgreSQL, serveur de déploiement) : 3h
+- Présentation (README, supports) : 4h
+- Implémentation : 6h
+
+Grâce à cette mise en œuvre et (re-)familiarisation avec ce type de solution technique, j’estime que si aujourd’hui il fallait recommencer un exercice similaire, la partie implémentatation ne devrait pas excéder 3~4 heures.
 
 # Livrable
 
@@ -73,4 +85,6 @@ Une courte vidéo est fournie, servant à présenter l’API en fonctionnement l
 
 Les liens vers ces deux ressources vous ont été fournies par mail (et resteront disponibles jusqu’à fin février).
 
-Merci pour votre temps.
+Merci pour votre temps !
+
+![Base PostgreSQL](/img/postgresql.png "PostgreSQL")

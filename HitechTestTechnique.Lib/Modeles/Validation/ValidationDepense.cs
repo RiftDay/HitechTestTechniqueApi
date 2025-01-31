@@ -18,7 +18,7 @@ public class ValidationDepense : ValidationAttribute
 
         if (depense.Commentaire.Length == 0)
             return new ValidationResult("Un commentaire doit être fourni", [ "Commentaire" ]);
-        
+
         if (depense.Commentaire.Length > 100)
             return new ValidationResult("Le commentaire de doit pas excéder 100 caractères.", [ "Commentaire" ]);
 
